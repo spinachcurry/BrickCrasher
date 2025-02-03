@@ -60,7 +60,7 @@ export const BrickMap = [
                             return Array.from({length: MAP_WIDTH}, () => 0);
                           }})
 ];
-console.log(BrickMap);
+//console.log(BrickMap);
 
 
 
