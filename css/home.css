@@ -14,27 +14,19 @@
   align-items: center;
 }
 
-.Gameboard {
+/* .GameboardContainer {
+  display: grid;
+  border: 1px solid #fff;
+} */
+
+
+.GameboardContainer {
   border: 3px solid #fff;
   width: 40vw;
   height: 70vh;
   position: relative;
-  display: flex;
-  justify-content: center;
-}
-
-.gbContainer {
   display: grid;
-  grid-template-columns: auto auto auto;
-  /* border: 1px solid #fff; */
-  padding: 3px;
-}
-
-.gbContainer > div {
-  border: 1px solid #fff;
-  padding: 10px;
-  font-size: 30px;
-  text-align: center;
+  justify-content: center;
 }
 
 @font-face {
